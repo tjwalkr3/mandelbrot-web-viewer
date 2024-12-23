@@ -1,0 +1,11 @@
+@h = http://localhost:32769
+
+GET {{h}}/todos/
+Accept: application/json
+
+###
+
+GET {{h}}/todos/1
+Accept: application/json
+
+###
